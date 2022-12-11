@@ -24,7 +24,7 @@ namespace dotnetcrudapi.Migrations
                     description = table.Column<string>(type: "text", nullable: true),
                     quantity = table.Column<int>(type: "integer", nullable: false),
                     price = table.Column<decimal>(type: "numeric", nullable: false),
-                    manufactreddate = table.Column<DateTime>(name: "manufactred_date", type: "timestamp with time zone", nullable: true)
+                    manufactureddate = table.Column<DateTime>(name: "manufactured_date", type: "timestamp with time zone", nullable: true)
                 },
                 constraints: table =>
                 {

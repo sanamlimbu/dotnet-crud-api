@@ -12,7 +12,7 @@ using dotnet_crud_api.Entities;
 namespace dotnetcrudapi.Migrations
 {
     [DbContext(typeof(DotNetCrudApiContext))]
-    [Migration("20221211082853_initial")]
+    [Migration("20221211113057_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -37,7 +37,7 @@ namespace dotnetcrudapi.Migrations
                     b.Property<string>("description")
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("manufactred_date")
+                    b.Property<DateTime?>("manufactured_date")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("name")

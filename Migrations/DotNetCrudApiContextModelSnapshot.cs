@@ -34,7 +34,7 @@ namespace dotnetcrudapi.Migrations
                     b.Property<string>("description")
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("manufactred_date")
+                    b.Property<DateTime?>("manufactured_date")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("name")

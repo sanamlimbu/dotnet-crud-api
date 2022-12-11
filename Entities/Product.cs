@@ -17,7 +17,7 @@ namespace dotnet_crud_api.Entities
         public string? description { get; set; }
         public int quantity { get; set; } = 0;
         public decimal price { get; set; } = 0;
-        public DateTime? manufactred_date { get; set; }
+        public DateTime? manufactured_date { get; set; }
     }
 
     public class ProductConfiguration: IEntityTypeConfiguration<Product>
